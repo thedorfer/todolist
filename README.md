@@ -9,10 +9,15 @@ The server must support both PHP and MYSQL databases.
 Installing
 
 1.	Copy all the files into the desired folder.
+
 2.	Edit db_connect.php in the following sections
+
 	$mysql_host = 'localhost';  //replace localhost with the url of your server
+	
 	$mysql_user = 'root';  //replace root with your mysql user login name
+	
 	$mysql_pw = ‘’;  //put your mysql server password between the quotes
+	
 3.	Configure the databases by running the setup.php file from your browser. ie. http://localhost/todolist/setup.php
 
 Authors
