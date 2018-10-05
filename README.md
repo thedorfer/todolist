@@ -20,7 +20,7 @@ Installing
 	
 3.	Configure the databases by running the setup.php file from your browser. ie. http://localhost/todolist/setup.php
 
-Authors
+Author
 
 James Allendoerfer
 
