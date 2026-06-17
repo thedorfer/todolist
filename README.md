@@ -1,31 +1,62 @@
-Todo List
+# Todo List
 
-Todo List is a simple to do list that allows for users to create basic todo lists that are ordered by the date they were created.  Users can add new tasks, edit existing tasks and remove tasks.
+A legacy PHP and MySQL CRUD application for creating, editing, organizing, and deleting personal task items. This project is kept as an early full-stack web application sample and portfolio archive.
 
-Prerequisites
+## Features
 
-The server must support both PHP and MYSQL databases.
+- Create new task items
+- Edit existing tasks
+- Delete completed or unwanted tasks
+- Store task data in a MySQL database
+- Display tasks ordered by creation date
 
-Installing
+## Technical stack
 
-1.	Copy all the files into the desired folder.
+- PHP
+- MySQL
+- HTML/CSS
+- Server-side form handling
+- Basic relational database setup
 
-2.	Edit db_connect.php in the following sections
+## What this project demonstrates
 
-	$mysql_host = 'localhost';  //replace localhost with the url of your server
-	
-	$mysql_user = 'root';  //replace root with your mysql user login name
-	
-	$mysql_pw = ‘’;  //put your mysql server password between the quotes
-	
-3.	Configure the databases by running the setup.php file from your browser. ie. http://localhost/todolist/setup.php
+This project shows foundational full-stack development concepts:
 
-Author
+- Relational data persistence
+- Basic CRUD application design
+- Server-side scripting
+- Database connection configuration
+- Simple installation/setup documentation
 
-James Allendoerfer
+## Local setup
 
-License
+The server must support PHP and MySQL.
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+1. Copy the project files into the desired web folder.
+2. Edit `db_connect.php` with the appropriate MySQL host, username, and password.
+3. Run `setup.php` from the browser to configure the database tables.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+Example:
+
+```text
+http://localhost/todolist/setup.php
+```
+
+## Security note
+
+This is a legacy learning/project archive and should not be deployed publicly without modernization. A production-ready version should add stronger credential management, prepared statements, server-side validation, CSRF protection, authentication, and updated PHP security practices.
+
+## Portfolio positioning
+
+This repository is best viewed as an early example of practical application development and database-backed web workflows. It complements more recent enterprise experience with Oracle PL/SQL, system integration, backend automation, data pipelines, and API-driven workflows.
+
+## Author
+
+James Allendoerfer  
+Senior Integration Developer | Oracle PL/SQL | Backend Systems | Data Engineering
+
+## License
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
